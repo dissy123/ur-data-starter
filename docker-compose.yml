@@ -4,8 +4,8 @@ services:
   nuxt:
     build: ./app
     environment:
-      - VIRTUAL_HOST=matthias.dollfuss.online
-      - LETSENCRYPT_HOST=matthias.dollfuss.online
+      - VIRTUAL_HOST=dollfuss.online
+      - LETSENCRYPT_HOST=dollfuss.online
       - LETSENCRYPT_EMAIL=hi@matthiasdollfuss.dev
       - SSL_POLICY=AWS-TLS-1-2-2017-01
       - NODE_ENV=production
