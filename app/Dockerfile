@@ -7,9 +7,11 @@ COPY . .
 RUN ls -lach
 
 RUN bun install
+RUN bun run build
+
 
 # Set environment variables
 
 EXPOSE 3000
 
-CMD [ "bun", "run" ]
+CMD [ "node", ".output/server/index.mjs" ]
