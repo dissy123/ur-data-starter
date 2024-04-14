@@ -43,6 +43,7 @@ services:
       - proxy-tier
     depends_on:
       - proxy
+
 volumes:
   certs:
   vhost.d:
